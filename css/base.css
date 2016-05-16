@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+img {
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 851px) {
+		.rmm {
+			width: 200px;
+			top: 18px;
+			margin-bottom: 8px
+		}
+		.rmm ul {
+			position: initial;
+		}
+}
+
+@media screen and (max-width: 508px) {
+		.rmm {
+			width: 200px;
+			top: 8px;
+			margin-bottom: 0px
+		}
+		
+}
+
+
+
