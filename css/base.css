@@ -1,11 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-
-
 .contain{
-	margin: 10%;
+	margin: 5% 10%;
 }
 
 div{
@@ -17,42 +14,41 @@ section {
 }
 .logo img{
 	width: 50%;
+	max-width: 340px;
 }
-li{
-	color: #000;
+a h1 {
+	font-size: 0;
+}
+
+a {
+	color: #4599ff;
+	text-decoration: none;
 }
 .page {
 	position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-	background: #f1f2f2; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, #f1f2f2, #d1d3d4); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #f1f2f2, #d1d3d4); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #f1f2f2, #d1d3d4); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #f1f2f2, #d1d3d4); /* Standard syntax */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image : url("../img/background-stuff.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #e5e5e5;
 }
-
-.floor {
-	position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 30%;
-	background: #d1d3d4; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, #d1d3d4, #f1f2f2); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #d1d3d4, #f1f2f2); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #d1d3d4, #f1f2f2); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #d1d3d4, #f1f2f2); /* Standard syntax */
-}
-
-
-.floor img{
-	position: absolute;
-	right: 0;
-	bottom: 0;
+.information {
 	width: 50%;
+}
+#stuff {
+	display: block;
+	float: right;
+	width: 30%;
+}
+
+@media screen and (max-width: 640px){
+	#stuff, .information {
+	width: 80%;
+}
 }
 /*@media screen and (max-width: 851px) {
 		.rmm {
